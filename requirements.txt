@@ -1,0 +1,15 @@
+# QuoteGuard - AI Procurement Decision Agent
+# Python 3.10+ recommended
+
+# HTTP/API communication
+requests>=2.31.0,<3.0.0
+
+# PDF processing and text extraction
+PyMuPDF>=1.24.0,<2.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0,<2.0.0
+
+# Notebook environment
+jupyter>=1.0.0
+ipykernel>=6.29.0
