@@ -1,0 +1,2112 @@
+[
+  {
+    "eval_id": "PQE-2026-001",
+    "quotation": {
+      "supplier_name": "Apex Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1001",
+      "quotation_date": "2026-09-20",
+      "valid_until": "2026-10-20",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 20,
+          "unit_price": 1250.0,
+          "line_total": 25000.0
+        }
+      ],
+      "subtotal": 25000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 2250.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 27250.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation is complete, commercially acceptable and internally consistent.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "standard_quotation",
+      "single_item",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-002",
+    "quotation": {
+      "supplier_name": "Nova Business Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1002",
+      "quotation_date": "2026-09-21",
+      "valid_until": "2026-10-21",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 20,
+          "unit_price": 400.0,
+          "line_total": 8000.0
+        },
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 20,
+          "unit_price": 180.0,
+          "line_total": 3600.0
+        }
+      ],
+      "subtotal": 11600.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1044.0,
+      "shipping_cost": 100.0,
+      "additional_charges": 0.0,
+      "total_amount": 12744.0,
+      "delivery_terms": "Delivery within 10 working days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation contains complete product and commercial information with correct calculations.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "multiple_items",
+      "shipping",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-003",
+    "quotation": {
+      "supplier_name": "Vertex Enterprise Supplies Pte. Ltd.",
+      "quotation_number": "QT-2026-1003",
+      "quotation_date": "2026-09-22",
+      "valid_until": "2026-10-22",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 10,
+          "unit_price": 600.0,
+          "line_total": 6000.0
+        }
+      ],
+      "subtotal": 6000.0,
+      "discount_percent": 10,
+      "discount_amount": 600.0,
+      "tax_percent": 9.0,
+      "tax_amount": 486.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 5886.0,
+      "delivery_terms": "Delivery within 7 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation is complete and the discount, tax and final amount are calculated correctly.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "discount",
+      "valid_tax",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-004",
+    "quotation": {
+      "supplier_name": "Orion Office Technologies Pte. Ltd.",
+      "quotation_number": "QT-2026-1004",
+      "quotation_date": "2026-09-18",
+      "valid_until": "2026-10-18",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Wireless Keyboard and Mouse Set",
+          "model": "KM-500",
+          "quantity": 100,
+          "unit_price": 80.0,
+          "line_total": 8000.0
+        }
+      ],
+      "subtotal": 8000.0,
+      "discount_percent": 5,
+      "discount_amount": 400.0,
+      "tax_percent": 9.0,
+      "tax_amount": 684.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 8284.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "12 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Volume discount and all resulting totals are correctly calculated.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "volume_discount",
+      "large_quantity",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-005",
+    "quotation": {
+      "supplier_name": "Summit Digital Solutions Pte. Ltd.",
+      "quotation_number": "QT-2026-1005",
+      "quotation_date": "2026-09-19",
+      "valid_until": "2026-10-19",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 15,
+          "unit_price": 189.5,
+          "line_total": 2842.5
+        }
+      ],
+      "subtotal": 2842.5,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 255.83,
+      "shipping_cost": 50.0,
+      "additional_charges": 0.0,
+      "total_amount": 3148.33,
+      "delivery_terms": "Delivery within 7 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Decimal pricing, tax and final payable amount are correctly calculated.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "decimal_price",
+      "rounding",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-006",
+    "quotation": {
+      "supplier_name": "Nexus Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1006",
+      "quotation_date": "2026-09-20",
+      "valid_until": "2026-10-20",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Wireless Keyboard and Mouse Set",
+          "model": "KM-500",
+          "quantity": 500,
+          "unit_price": 60.0,
+          "line_total": 30000.0
+        }
+      ],
+      "subtotal": 30000.0,
+      "discount_percent": 10,
+      "discount_amount": 3000.0,
+      "tax_percent": 9.0,
+      "tax_amount": 2430.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 29430.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "12 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Large quantity quotation remains within policy limits and all calculations are correct.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "large_quantity",
+      "volume_discount",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-007",
+    "quotation": {
+      "supplier_name": "PrimeTech Distribution Pte. Ltd.",
+      "quotation_number": "QT-2026-1007",
+      "quotation_date": "2026-09-23",
+      "valid_until": "2026-10-23",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 30,
+          "unit_price": 350.0,
+          "line_total": 10500.0
+        }
+      ],
+      "subtotal": 10500.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 945.0,
+      "shipping_cost": 200.0,
+      "additional_charges": 0.0,
+      "total_amount": 11645.0,
+      "delivery_terms": "Delivery within 10 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Shipping charge is clearly disclosed and correctly included in the final amount.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "shipping",
+      "single_item",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-008",
+    "quotation": {
+      "supplier_name": "Horizon Enterprise Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1008",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 10,
+          "unit_price": 1400.0,
+          "line_total": 14000.0
+        }
+      ],
+      "subtotal": 14000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1260.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 15260.0,
+      "delivery_terms": "Free delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation is complete and free delivery is explicitly stated.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "free_shipping",
+      "valid_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-009",
+    "quotation": {
+      "supplier_name": "Apex Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1009",
+      "quotation_date": "2026-09-17",
+      "valid_until": "2026-10-17",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 20,
+          "unit_price": 500.0,
+          "line_total": 10000.0
+        }
+      ],
+      "subtotal": 10000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 900.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 500.0,
+      "total_amount": 11400.0,
+      "delivery_terms": "Delivery and installation within 14 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Installation charge is clearly disclosed and correctly included in the final amount.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "installation_charge",
+      "additional_charge",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-010",
+    "quotation": {
+      "supplier_name": "Nova Business Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1010",
+      "quotation_date": "2026-09-22",
+      "valid_until": "2026-10-22",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 15,
+          "unit_price": 1300.0,
+          "line_total": 19500.0
+        }
+      ],
+      "subtotal": 19500.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1755.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 21255.0,
+      "delivery_terms": "Delivery within 10 working days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Delivery terms are clearly specified and fall within the acceptable delivery period.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "working_days",
+      "delivery_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-011",
+    "quotation": {
+      "supplier_name": "Vertex Enterprise Supplies Pte. Ltd.",
+      "quotation_number": "QT-2026-1011",
+      "quotation_date": "2026-09-20",
+      "valid_until": "2026-10-20",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 25,
+          "unit_price": 360.0,
+          "line_total": 9000.0
+        }
+      ],
+      "subtotal": 9000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 810.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 9810.0,
+      "delivery_terms": "Delivery within 3 weeks",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Delivery period is clearly stated and remains within the acceptable procurement window.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "delivery_weeks",
+      "delivery_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-012",
+    "quotation": {
+      "supplier_name": "Orion Office Technologies Pte. Ltd.",
+      "quotation_number": "QT-2026-1012",
+      "quotation_date": "2026-09-20",
+      "valid_until": "2026-10-20",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 30,
+          "unit_price": 170.0,
+          "line_total": 5100.0
+        }
+      ],
+      "subtotal": 5100.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 459.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 5559.0,
+      "delivery_terms": "Delivery by 15 October 2026",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "A clear and acceptable delivery date is provided with complete commercial terms.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "specific_delivery_date",
+      "delivery_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-013",
+    "quotation": {
+      "supplier_name": "Summit Digital Solutions Pte. Ltd.",
+      "quotation_number": "QT-2026-1013",
+      "quotation_date": "2026-09-21",
+      "valid_until": "2026-10-21",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 12,
+          "unit_price": 1500.0,
+          "line_total": 18000.0
+        }
+      ],
+      "subtotal": 18000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1620.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 19620.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "2 years",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Warranty is clearly stated and exceeds the minimum warranty requirement.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "warranty_years",
+      "valid_warranty"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-014",
+    "quotation": {
+      "supplier_name": "Nexus Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1014",
+      "quotation_date": "2026-09-23",
+      "valid_until": "2026-10-23",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 15,
+          "unit_price": 550.0,
+          "line_total": 8250.0
+        }
+      ],
+      "subtotal": 8250.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 742.5,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 8992.5,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "36 months comprehensive warranty",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation includes an acceptable extended warranty and complete commercial information.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "extended_warranty",
+      "valid_warranty"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-015",
+    "quotation": {
+      "supplier_name": "PrimeTech Distribution Pte. Ltd.",
+      "quotation_number": "QT-2026-1015",
+      "quotation_date": "2026-09-20",
+      "valid_until": "2026-10-20",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 40,
+          "unit_price": 300.0,
+          "line_total": 12000.0
+        }
+      ],
+      "subtotal": 12000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1080.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 13080.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 45"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation contains complete and acceptable commercial terms with correct calculations.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "net_45",
+      "payment_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-016",
+    "quotation": {
+      "supplier_name": "Horizon Enterprise Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1016",
+      "quotation_date": "2026-09-18",
+      "valid_until": "2026-10-18",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 20,
+          "unit_price": 650.0,
+          "line_total": 13000.0
+        }
+      ],
+      "subtotal": 13000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1170.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 14170.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "36 months",
+      "payment_terms": "50% on order, 50% after delivery"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Split payment terms are clearly defined and the quotation is otherwise complete and consistent.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "split_payment",
+      "payment_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-017",
+    "quotation": {
+      "supplier_name": "Apex Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1017",
+      "quotation_date": "2026-09-22",
+      "valid_until": "2026-10-22",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 10,
+          "unit_price": 1300.0,
+          "line_total": 13000.0
+        },
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 10,
+          "unit_price": 350.0,
+          "line_total": 3500.0
+        },
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 10,
+          "unit_price": 150.0,
+          "line_total": 1500.0
+        }
+      ],
+      "subtotal": 18000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1620.0,
+      "shipping_cost": 150.0,
+      "additional_charges": 0.0,
+      "total_amount": 19770.0,
+      "delivery_terms": "All items delivered within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "All product lines, totals and commercial terms are complete and internally consistent.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "multiple_items",
+      "three_products",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-018",
+    "quotation": {
+      "supplier_name": "Nova Business Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1018",
+      "quotation_date": "2026-09-01",
+      "valid_until": "2026-10-02",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 8,
+          "unit_price": 1450.0,
+          "line_total": 11600.0
+        }
+      ],
+      "subtotal": 11600.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1044.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 12644.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation remains valid on the reference date and all commercial information is complete.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "near_expiry",
+      "valid_quotation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-019",
+    "quotation": {
+      "supplier_name": "Vertex Enterprise Supplies Pte. Ltd.",
+      "quotation_number": "QT-2026-1019",
+      "quotation_date": "2026-09-15",
+      "valid_until": "2026-12-15",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Wireless Keyboard and Mouse Set",
+          "model": "KM-500",
+          "quantity": 50,
+          "unit_price": 75.0,
+          "line_total": 3750.0
+        }
+      ],
+      "subtotal": 3750.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 337.5,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 4087.5,
+      "delivery_terms": "Delivery within 7 days",
+      "warranty": "12 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Quotation has a valid extended validity period and contains complete commercial information.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "long_validity",
+      "valid_quotation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-020",
+    "quotation": {
+      "supplier_name": "Orion Office Technologies Pte. Ltd.",
+      "quotation_number": "QT-2026-1020",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 20,
+          "unit_price": 218.0,
+          "line_total": 4360.0
+        }
+      ],
+      "subtotal": 4000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 360.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 4360.0,
+      "pricing_note": "Unit and line prices shown are inclusive of 9% GST.",
+      "delivery_terms": "Delivery within 10 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Tax-inclusive pricing is explicitly disclosed and the underlying subtotal and GST reconcile correctly.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "tax_inclusive",
+      "gst",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-021",
+    "quotation": {
+      "supplier_name": "Summit Digital Solutions Pte. Ltd.",
+      "quotation_number": "QT-2026-1021",
+      "quotation_date": "2026-09-23",
+      "valid_until": "2026-10-23",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 20,
+          "unit_price": 450.0,
+          "line_total": 9000.0
+        }
+      ],
+      "subtotal": 9000.0,
+      "discount_percent": 5,
+      "discount_amount": 450.0,
+      "tax_percent": 9.0,
+      "tax_amount": 769.5,
+      "shipping_cost": 100.0,
+      "additional_charges": 0.0,
+      "total_amount": 9419.5,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Discount, GST and shipping charges are clearly stated and correctly reflected in the final amount.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "discount",
+      "shipping",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-022",
+    "quotation": {
+      "supplier_name": "Nexus Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1022",
+      "quotation_date": "2026-09-22",
+      "valid_until": "2026-11-22",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 20,
+          "unit_price": 1200.0,
+          "line_total": 24000.0
+        },
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 20,
+          "unit_price": 150.0,
+          "line_total": 3000.0
+        }
+      ],
+      "subtotal": 27000.0,
+      "discount_percent": 10,
+      "discount_amount": 2700.0,
+      "tax_percent": 9.0,
+      "tax_amount": 2187.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 26487.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Multi-item quotation and volume discount are correctly calculated with acceptable commercial terms.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "multiple_items",
+      "discount",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-023",
+    "quotation": {
+      "supplier_name": "PrimeTech Distribution Pte. Ltd.",
+      "quotation_number": "QT-2026-1023",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 15,
+          "unit_price": 400.0,
+          "line_total": 6000.0
+        }
+      ],
+      "subtotal": 6000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 540.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 6540.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "12 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Warranty meets the minimum procurement requirement and all other terms are valid.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "minimum_warranty",
+      "boundary_case",
+      "valid_quotation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-024",
+    "quotation": {
+      "supplier_name": "Horizon Enterprise Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1024",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 30,
+          "unit_price": 500.0,
+          "line_total": 15000.0
+        }
+      ],
+      "subtotal": 15000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1350.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 16350.0,
+      "delivery_terms": "Delivery within 30 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Delivery is at the maximum preferred limit but remains within procurement policy.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "delivery_boundary",
+      "30_days",
+      "valid_quotation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-025",
+    "quotation": {
+      "supplier_name": "Apex Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1025",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-11-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 30,
+          "unit_price": 1400.0,
+          "line_total": 42000.0
+        },
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 30,
+          "unit_price": 350.0,
+          "line_total": 10500.0
+        },
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 30,
+          "unit_price": 150.0,
+          "line_total": 4500.0
+        }
+      ],
+      "subtotal": 57000.0,
+      "discount_percent": 10,
+      "discount_amount": 5700.0,
+      "tax_percent": 9.0,
+      "tax_amount": 4617.0,
+      "shipping_cost": 250.0,
+      "additional_charges": 500.0,
+      "total_amount": 56667.0,
+      "delivery_terms": "Delivery and installation within 21 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "APPROVE",
+      "reason": "Complex multi-item quotation is complete, internally consistent and within procurement policy.",
+      "issue": "NONE",
+      "next_action": "CREATE_DRAFT_PO",
+      "severity": "NONE"
+    },
+    "tags": [
+      "complex_quotation",
+      "multiple_items",
+      "discount",
+      "shipping",
+      "installation",
+      "valid_calculation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-026",
+    "quotation": {
+      "supplier_name": "Nova Business Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1026",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 80,
+          "unit_price": 1300.0,
+          "line_total": 104000.0
+        }
+      ],
+      "subtotal": 104000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 9360.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 113360.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "Quotation value exceeds the SGD 100,000 supervisor approval threshold.",
+      "issue": "APPROVAL_THRESHOLD_EXCEEDED",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "high_value",
+      "approval_threshold",
+      "supervisor_authorization"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-027",
+    "quotation": {
+      "supplier_name": "Vertex Enterprise Supplies Pte. Ltd.",
+      "quotation_number": "QT-2026-1027",
+      "quotation_date": "2026-09-23",
+      "valid_until": "2026-10-23",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Wireless Keyboard and Mouse Set",
+          "model": "KM-500",
+          "quantity": 1000,
+          "unit_price": 70.0,
+          "line_total": 70000.0
+        }
+      ],
+      "subtotal": 70000.0,
+      "discount_percent": 10,
+      "discount_amount": 7000.0,
+      "tax_percent": 9.0,
+      "tax_amount": 5670.0,
+      "shipping_cost": 500.0,
+      "additional_charges": 0.0,
+      "total_amount": 69170.0,
+      "delivery_terms": "Delivery within 30 days",
+      "warranty": "12 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The unusually large order quantity creates a significant procurement commitment requiring supervisor review.",
+      "issue": "UNUSUALLY_LARGE_QUANTITY",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "large_quantity",
+      "procurement_commitment",
+      "supervisor_judgement"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-028",
+    "quotation": {
+      "supplier_name": "Orion Office Technologies Pte. Ltd.",
+      "quotation_number": "QT-2026-1028",
+      "quotation_date": "2026-09-22",
+      "valid_until": "2026-10-22",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 20,
+          "unit_price": 600.0,
+          "line_total": 12000.0
+        }
+      ],
+      "subtotal": 12000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1080.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 13080.0,
+      "delivery_terms": "Delivery within 45 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The 45-day delivery period exceeds the preferred maximum of 30 days and requires business approval.",
+      "issue": "EXTENDED_DELIVERY_PERIOD",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "extended_delivery",
+      "delivery_risk",
+      "policy_exception"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-029",
+    "quotation": {
+      "supplier_name": "Summit Digital Solutions Pte. Ltd.",
+      "quotation_number": "QT-2026-1029",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 20,
+          "unit_price": 1350.0,
+          "line_total": 27000.0
+        }
+      ],
+      "subtotal": 27000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 2430.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 29430.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "6 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The offered warranty is below the preferred minimum of 12 months and requires supervisor acceptance.",
+      "issue": "SHORT_WARRANTY",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "short_warranty",
+      "warranty_risk",
+      "policy_exception"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-030",
+    "quotation": {
+      "supplier_name": "Nexus Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1030",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 25,
+          "unit_price": 1400.0,
+          "line_total": 35000.0
+        }
+      ],
+      "subtotal": 35000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 3150.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 38150.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "80% upfront, 20% after delivery"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The requirement for 80% upfront payment creates elevated financial exposure and requires supervisor approval.",
+      "issue": "HIGH_UPFRONT_PAYMENT",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "upfront_payment",
+      "financial_risk",
+      "payment_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-031",
+    "quotation": {
+      "supplier_name": "PrimeTech Distribution Pte. Ltd.",
+      "quotation_number": "QT-2026-1031",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 40,
+          "unit_price": 375.0,
+          "line_total": 15000.0
+        }
+      ],
+      "subtotal": 15000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1350.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 16350.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "100% payment before shipment"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "Full payment is required before shipment, creating elevated supplier and financial risk.",
+      "issue": "FULL_ADVANCE_PAYMENT",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "advance_payment",
+      "financial_risk",
+      "supplier_risk"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-032",
+    "quotation": {
+      "supplier_name": "Horizon Enterprise Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1032",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 20,
+          "unit_price": 180.0,
+          "line_total": 3600.0
+        }
+      ],
+      "subtotal": 3600.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 324.0,
+      "shipping_cost": 1500.0,
+      "additional_charges": 0.0,
+      "total_amount": 5424.0,
+      "delivery_terms": "Delivery within 10 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The shipping charge is unusually high relative to the value of the goods and requires commercial review.",
+      "issue": "HIGH_SHIPPING_COST",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "high_shipping",
+      "commercial_risk",
+      "cost_review"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-033",
+    "quotation": {
+      "supplier_name": "Apex Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1033",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "USD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 20,
+          "unit_price": 950.0,
+          "line_total": 19000.0
+        }
+      ],
+      "subtotal": 19000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 0.0,
+      "tax_amount": 0.0,
+      "shipping_cost": 300.0,
+      "additional_charges": 0.0,
+      "total_amount": 19300.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The quotation is denominated in USD rather than the procurement base currency SGD and requires currency and financial review.",
+      "issue": "FOREIGN_CURRENCY",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "foreign_currency",
+      "usd",
+      "currency_risk"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-034",
+    "quotation": {
+      "supplier_name": "Nova Business Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1034",
+      "quotation_date": "2026-09-30",
+      "valid_until": "2026-10-01",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 25,
+          "unit_price": 550.0,
+          "line_total": 13750.0
+        }
+      ],
+      "subtotal": 13750.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1237.5,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 14987.5,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The quotation remains valid but expires within one day, requiring time-sensitive supervisor review.",
+      "issue": "SHORT_VALIDITY_PERIOD",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "short_validity",
+      "time_sensitive",
+      "commercial_review"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-035",
+    "quotation": {
+      "supplier_name": "Vertex Enterprise Supplies Pte. Ltd.",
+      "quotation_number": "QT-2026-1035",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 30,
+          "unit_price": 1350.0,
+          "line_total": 40500.0
+        }
+      ],
+      "subtotal": 40500.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 3645.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 44145.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30",
+      "special_terms": "Order cancellation after confirmation is subject to a non-refundable 30% restocking charge."
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "reason": "The 30% non-refundable cancellation charge creates a significant contractual commitment requiring supervisor review.",
+      "issue": "HIGH_CANCELLATION_FEE",
+      "next_action": "SUPERVISOR_REVIEW",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "cancellation_fee",
+      "contractual_risk",
+      "commercial_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-036",
+    "quotation": {
+      "supplier_name": "Orion Office Technologies Pte. Ltd.",
+      "quotation_number": "QT-2026-1036",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 20,
+          "unit_price": 500.0,
+          "line_total": 12000.0
+        }
+      ],
+      "subtotal": 12000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1080.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 13080.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REQUEST_CLARIFICATION",
+      "reason": "The stated line total does not match the quantity multiplied by the unit price.",
+      "issue": "LINE_TOTAL_MISMATCH",
+      "next_action": "CONTACT_SUPPLIER",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "calculation_error",
+      "line_total",
+      "quantity_price_mismatch"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-037",
+    "quotation": {
+      "supplier_name": "Summit Digital Solutions Pte. Ltd.",
+      "quotation_number": "QT-2026-1037",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 10,
+          "unit_price": 1200.0,
+          "line_total": 12000.0
+        },
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 10,
+          "unit_price": 150.0,
+          "line_total": 1500.0
+        }
+      ],
+      "subtotal": 14000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1260.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 15260.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REQUEST_CLARIFICATION",
+      "reason": "The stated subtotal does not equal the sum of the individual line totals.",
+      "issue": "SUBTOTAL_MISMATCH",
+      "next_action": "CONTACT_SUPPLIER",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "calculation_error",
+      "subtotal",
+      "multiple_items"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-038",
+    "quotation": {
+      "supplier_name": "Nexus Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1038",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 20,
+          "unit_price": 500.0,
+          "line_total": 10000.0
+        }
+      ],
+      "subtotal": 10000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1200.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 11200.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REQUEST_CLARIFICATION",
+      "reason": "The stated GST amount is inconsistent with the quoted 9% tax rate and subtotal.",
+      "issue": "INCORRECT_TAX_CALCULATION",
+      "next_action": "CONTACT_SUPPLIER",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "calculation_error",
+      "gst",
+      "tax_mismatch"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-039",
+    "quotation": {
+      "supplier_name": "PrimeTech Distribution Pte. Ltd.",
+      "quotation_number": "QT-2026-1039",
+      "quotation_date": "2026-09-23",
+      "valid_until": "2026-10-23",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 20,
+          "unit_price": 1500.0,
+          "line_total": 30000.0
+        }
+      ],
+      "subtotal": 30000.0,
+      "discount_percent": 10,
+      "discount_amount": 2000.0,
+      "tax_percent": 9.0,
+      "tax_amount": 2520.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 30520.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REQUEST_CLARIFICATION",
+      "reason": "The stated discount amount does not correspond to the quoted 10% discount rate.",
+      "issue": "INCORRECT_DISCOUNT_CALCULATION",
+      "next_action": "CONTACT_SUPPLIER",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "calculation_error",
+      "discount",
+      "discount_mismatch"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-040",
+    "quotation": {
+      "supplier_name": "Horizon Enterprise Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1040",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 25,
+          "unit_price": 400.0,
+          "line_total": 10000.0
+        }
+      ],
+      "subtotal": 10000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 900.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 10900.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30",
+      "special_terms": "Standard delivery lead time for this order is 30 days."
+    },
+    "expected": {
+      "decision": "REQUEST_CLARIFICATION",
+      "reason": "The quotation contains conflicting delivery periods of 14 days and 30 days.",
+      "issue": "CONFLICTING_DELIVERY_TERMS",
+      "next_action": "CONTACT_SUPPLIER",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "contradictory_information",
+      "delivery_terms",
+      "ambiguity"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-041",
+    "quotation": {
+      "supplier_name": "Apex Technology Pte. Ltd.",
+      "quotation_number": "QT-2026-1041",
+      "quotation_date": "2026-09-24",
+      "valid_until": "2026-10-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 15,
+          "unit_price": 1350.0,
+          "line_total": 20250.0
+        }
+      ],
+      "subtotal": 20250.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1822.5,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 22072.5,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": null,
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REQUEST_CLARIFICATION",
+      "reason": "The quotation does not specify warranty coverage for the supplied equipment.",
+      "issue": "MISSING_WARRANTY",
+      "next_action": "CONTACT_SUPPLIER",
+      "severity": "MEDIUM"
+    },
+    "tags": [
+      "missing_information",
+      "warranty",
+      "incomplete_terms"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-042",
+    "quotation": {
+      "supplier_name": "Nova Business Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1042",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": null,
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 10,
+          "unit_price": 650.0,
+          "line_total": 6500.0
+        }
+      ],
+      "subtotal": 6500.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 585.0,
+      "shipping_cost": 100.0,
+      "additional_charges": 0.0,
+      "total_amount": 7185.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "36 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REQUEST_CLARIFICATION",
+      "reason": "The quotation does not identify the currency used for its prices and totals.",
+      "issue": "MISSING_CURRENCY",
+      "next_action": "CONTACT_SUPPLIER",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "missing_information",
+      "currency",
+      "pricing_ambiguity"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-043",
+    "quotation": {
+      "document_type": "INVOICE",
+      "supplier_name": "Vertex Enterprise Supplies Pte. Ltd.",
+      "document_number": "INV-2026-7842",
+      "document_date": "2026-09-24",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 10,
+          "unit_price": 1300.0,
+          "line_total": 13000.0
+        }
+      ],
+      "subtotal": 13000.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1170.0,
+      "total_amount": 14170.0,
+      "payment_status": "Payment Due"
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The submitted document is an invoice rather than a supplier quotation.",
+      "issue": "INVALID_DOCUMENT_TYPE",
+      "next_action": "STOP_PROCESSING",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "wrong_document",
+      "invoice",
+      "invalid_document_type"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-044",
+    "quotation": {
+      "document_type": "PURCHASE_ORDER",
+      "supplier_name": "Apex Technology Pte. Ltd.",
+      "document_number": "PO-2026-4581",
+      "document_date": "2026-09-22",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "27-inch Business Monitor",
+          "model": "BM-27Q",
+          "quantity": 20,
+          "unit_price": 400.0,
+          "line_total": 8000.0
+        }
+      ],
+      "subtotal": 8000.0,
+      "tax_percent": 9.0,
+      "tax_amount": 720.0,
+      "total_amount": 8720.0,
+      "order_status": "Issued"
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The submitted document is a purchase order rather than a supplier quotation.",
+      "issue": "INVALID_DOCUMENT_TYPE",
+      "next_action": "STOP_PROCESSING",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "wrong_document",
+      "purchase_order",
+      "invalid_document_type"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-045",
+    "quotation": {
+      "document_type": "COMPANY_PROFILE",
+      "supplier_name": "Summit Digital Solutions Pte. Ltd.",
+      "document_title": "Corporate Capabilities and Services Profile",
+      "document_date": "2026-09-10",
+      "content_summary": "Company background, service portfolio, certifications, office locations and contact information."
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The submitted document is a company profile and does not contain a supplier quotation.",
+      "issue": "UNRELATED_DOCUMENT",
+      "next_action": "STOP_PROCESSING",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "wrong_document",
+      "unrelated_document",
+      "no_quotation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-046",
+    "quotation": {
+      "document_type": "SUPPLIER_QUOTATION",
+      "supplier_name": "Orion Office Technologies Pte. Ltd.",
+      "quotation_number": "QT-2022-0421",
+      "quotation_date": "2022-05-10",
+      "valid_until": "2022-06-10",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Business Laptop",
+          "model": "BL-14X",
+          "quantity": 20,
+          "unit_price": 1100.0,
+          "line_total": 22000.0
+        }
+      ],
+      "subtotal": 22000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 7.0,
+      "tax_amount": 1540.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 23540.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The quotation expired several years before the current procurement assessment and is no longer commercially valid.",
+      "issue": "SEVERELY_EXPIRED_QUOTATION",
+      "next_action": "STOP_PROCESSING",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "expired_quotation",
+      "stale_document",
+      "invalid_validity"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-047",
+    "quotation": {
+      "document_type": "SUPPLIER_QUOTATION",
+      "supplier_name": "Nexus Technology Pte. Ltd.",
+      "quotation_number": "QT-2035-9001",
+      "quotation_date": "2035-01-15",
+      "valid_until": "2035-02-15",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "Enterprise Wi-Fi Access Point",
+          "model": "AP-600",
+          "quantity": 20,
+          "unit_price": 600.0,
+          "line_total": 12000.0
+        }
+      ],
+      "subtotal": 12000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 1080.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 13080.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The quotation is dated implausibly far in the future relative to the assessment date.",
+      "issue": "INVALID_FUTURE_DATE",
+      "next_action": "STOP_PROCESSING",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "future_date",
+      "suspicious_document",
+      "invalid_date"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-048",
+    "quotation": {
+      "document_type": "SUPPLIER_QUOTATION",
+      "supplier_name": null,
+      "quotation_number": "QT-2026-1048",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "items": [
+        {
+          "description": "USB-C Docking Station",
+          "model": "DS-100",
+          "quantity": 20,
+          "unit_price": 180.0,
+          "line_total": 3600.0
+        }
+      ],
+      "subtotal": 3600.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 324.0,
+      "shipping_cost": 0.0,
+      "additional_charges": 0.0,
+      "total_amount": 3924.0,
+      "delivery_terms": "Delivery within 14 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30",
+      "supplier_contact": null
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The quotation contains no identifiable supplier or supplier contact information, so its source cannot be established.",
+      "issue": "UNIDENTIFIABLE_SUPPLIER",
+      "next_action": "STOP_PROCESSING",
+      "severity": "CRITICAL"
+    },
+    "tags": [
+      "missing_supplier",
+      "source_unverifiable",
+      "invalid_quotation"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-049",
+    "quotation": {
+      "document_type": "SUPPLIER_QUOTATION",
+      "supplier_name": "PrimeTech Distribution Pte. Ltd.",
+      "quotation_number": null,
+      "quotation_date": null,
+      "valid_until": null,
+      "currency": null,
+      "items": [],
+      "subtotal": null,
+      "tax_percent": null,
+      "tax_amount": null,
+      "total_amount": null,
+      "delivery_terms": null,
+      "warranty": null,
+      "payment_terms": null,
+      "extraction_status": "UNREADABLE",
+      "extraction_note": "Document content is severely corrupted or illegible. No reliable commercial information could be extracted."
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The document is unreadable and does not contain sufficient reliable information for procurement assessment.",
+      "issue": "UNREADABLE_DOCUMENT",
+      "next_action": "STOP_PROCESSING",
+      "severity": "CRITICAL"
+    },
+    "tags": [
+      "unreadable_document",
+      "extraction_failure",
+      "insufficient_information"
+    ]
+  },
+  {
+    "eval_id": "PQE-2026-050",
+    "quotation": {
+      "document_type": "SUPPLIER_QUOTATION",
+      "supplier_name": "Horizon Enterprise Systems Pte. Ltd.",
+      "quotation_number": "QT-2026-1050",
+      "quotation_date": "2026-09-25",
+      "valid_until": "2026-10-25",
+      "currency": "SGD",
+      "procurement_request": "Business laptops and accessories",
+      "items": [
+        {
+          "description": "Industrial Refrigeration Unit",
+          "model": "IRU-5000",
+          "quantity": 2,
+          "unit_price": 18000.0,
+          "line_total": 36000.0
+        }
+      ],
+      "subtotal": 36000.0,
+      "discount_percent": 0,
+      "discount_amount": 0.0,
+      "tax_percent": 9.0,
+      "tax_amount": 3240.0,
+      "shipping_cost": 500.0,
+      "additional_charges": 0.0,
+      "total_amount": 39740.0,
+      "delivery_terms": "Delivery within 21 days",
+      "warranty": "24 months",
+      "payment_terms": "Net 30"
+    },
+    "expected": {
+      "decision": "REJECT",
+      "reason": "The quotation is for goods unrelated to the stated procurement requirement.",
+      "issue": "PROCUREMENT_SCOPE_MISMATCH",
+      "next_action": "STOP_PROCESSING",
+      "severity": "HIGH"
+    },
+    "tags": [
+      "wrong_goods",
+      "scope_mismatch",
+      "irrelevant_quotation"
+    ]
+  }
+]
