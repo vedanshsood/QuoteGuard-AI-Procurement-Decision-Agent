@@ -1,0 +1,999 @@
+1. Case name:
+PQE-2026-001 — Valid Standard Quotation
+
+Type:
+Normal
+
+Situation:
+Apex Technology Pte. Ltd. submitted quotation QT-2026-1001 for 20 × Business Laptop (BL-14X). The quoted total is SGD 27,250.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation is complete, commercially acceptable and internally consistent.
+
+Special thing being tested:
+standard quotation, single item, valid calculation
+
+------------------------------------------------------------------------
+
+2. Case name:
+PQE-2026-002 — Valid Multiple Items
+
+Type:
+Normal
+
+Situation:
+Nova Business Systems Pte. Ltd. submitted quotation QT-2026-1002 for 20 × 27-inch Business Monitor (BM-27Q), 20 × USB-C Docking Station (DS-100). The quoted total is SGD 12,744.00, with shipping of SGD 100.00, delivery within 10 working days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation contains complete product and commercial information with correct calculations.
+
+Special thing being tested:
+multiple items, shipping, valid calculation
+
+------------------------------------------------------------------------
+
+3. Case name:
+PQE-2026-003 — Valid Discount
+
+Type:
+Normal
+
+Situation:
+Vertex Enterprise Supplies Pte. Ltd. submitted quotation QT-2026-1003 for 10 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 5,886.00, with a 10% discount, delivery within 7 days, a 36 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation is complete and the discount, tax and final amount are calculated correctly.
+
+Special thing being tested:
+discount, valid tax, valid calculation
+
+------------------------------------------------------------------------
+
+4. Case name:
+PQE-2026-004 — Valid Volume Discount
+
+Type:
+Normal
+
+Situation:
+Orion Office Technologies Pte. Ltd. submitted quotation QT-2026-1004 for 100 × Wireless Keyboard and Mouse Set (KM-500). The quoted total is SGD 8,284.00, with a 5% discount, delivery within 14 days, a 12 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Volume discount and all resulting totals are correctly calculated.
+
+Special thing being tested:
+volume discount, large quantity, valid calculation
+
+------------------------------------------------------------------------
+
+5. Case name:
+PQE-2026-005 — Valid Decimal Price
+
+Type:
+Normal
+
+Situation:
+Summit Digital Solutions Pte. Ltd. submitted quotation QT-2026-1005 for 15 × USB-C Docking Station (DS-100). The quoted total is SGD 3,148.33, with shipping of SGD 50.00, delivery within 7 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Decimal pricing, tax and final payable amount are correctly calculated.
+
+Special thing being tested:
+decimal price, rounding, valid calculation
+
+------------------------------------------------------------------------
+
+6. Case name:
+PQE-2026-006 — Valid Large Quantity
+
+Type:
+Normal
+
+Situation:
+Nexus Technology Pte. Ltd. submitted quotation QT-2026-1006 for 500 × Wireless Keyboard and Mouse Set (KM-500). The quoted total is SGD 29,430.00, with a 10% discount, delivery within 21 days, a 12 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Large quantity quotation remains within policy limits and all calculations are correct.
+
+Special thing being tested:
+large quantity, volume discount, valid calculation
+
+------------------------------------------------------------------------
+
+7. Case name:
+PQE-2026-007 — Valid Shipping
+
+Type:
+Normal
+
+Situation:
+PrimeTech Distribution Pte. Ltd. submitted quotation QT-2026-1007 for 30 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 11,645.00, with shipping of SGD 200.00, delivery within 10 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Shipping charge is clearly disclosed and correctly included in the final amount.
+
+Special thing being tested:
+shipping, single item, valid calculation
+
+------------------------------------------------------------------------
+
+8. Case name:
+PQE-2026-008 — Valid Free Shipping
+
+Type:
+Normal
+
+Situation:
+Horizon Enterprise Systems Pte. Ltd. submitted quotation QT-2026-1008 for 10 × Business Laptop (BL-14X). The quoted total is SGD 15,260.00, with free delivery within 14 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation is complete and free delivery is explicitly stated.
+
+Special thing being tested:
+free shipping, valid terms
+
+------------------------------------------------------------------------
+
+9. Case name:
+PQE-2026-009 — Valid Installation Charge
+
+Type:
+Normal
+
+Situation:
+Apex Technology Pte. Ltd. submitted quotation QT-2026-1009 for 20 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 11,400.00, with additional charges of SGD 500.00, delivery and installation within 14 days, a 36 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Installation charge is clearly disclosed and correctly included in the final amount.
+
+Special thing being tested:
+installation charge, additional charge, valid calculation
+
+------------------------------------------------------------------------
+
+10. Case name:
+PQE-2026-010 — Valid Working Days
+
+Type:
+Normal
+
+Situation:
+Nova Business Systems Pte. Ltd. submitted quotation QT-2026-1010 for 15 × Business Laptop (BL-14X). The quoted total is SGD 21,255.00, with delivery within 10 working days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Delivery terms are clearly specified and fall within the acceptable delivery period.
+
+Special thing being tested:
+working days, delivery terms
+
+------------------------------------------------------------------------
+
+11. Case name:
+PQE-2026-011 — Valid Delivery Weeks
+
+Type:
+Normal
+
+Situation:
+Vertex Enterprise Supplies Pte. Ltd. submitted quotation QT-2026-1011 for 25 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 9,810.00, with delivery within 3 weeks, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Delivery period is clearly stated and remains within the acceptable procurement window.
+
+Special thing being tested:
+delivery weeks, delivery terms
+
+------------------------------------------------------------------------
+
+12. Case name:
+PQE-2026-012 — Valid Specific Delivery Date
+
+Type:
+Normal
+
+Situation:
+Orion Office Technologies Pte. Ltd. submitted quotation QT-2026-1012 for 30 × USB-C Docking Station (DS-100). The quoted total is SGD 5,559.00, with delivery by 15 october 2026, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+A clear and acceptable delivery date is provided with complete commercial terms.
+
+Special thing being tested:
+specific delivery date, delivery terms
+
+------------------------------------------------------------------------
+
+13. Case name:
+PQE-2026-013 — Valid Warranty Years
+
+Type:
+Normal
+
+Situation:
+Summit Digital Solutions Pte. Ltd. submitted quotation QT-2026-1013 for 12 × Business Laptop (BL-14X). The quoted total is SGD 19,620.00, with delivery within 14 days, a 2 years warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Warranty is clearly stated and exceeds the minimum warranty requirement.
+
+Special thing being tested:
+warranty years, valid warranty
+
+------------------------------------------------------------------------
+
+14. Case name:
+PQE-2026-014 — Valid Extended Warranty
+
+Type:
+Normal
+
+Situation:
+Nexus Technology Pte. Ltd. submitted quotation QT-2026-1014 for 15 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 8,992.50, with delivery within 14 days, a 36 months comprehensive warranty warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation includes an acceptable extended warranty and complete commercial information.
+
+Special thing being tested:
+extended warranty, valid warranty
+
+------------------------------------------------------------------------
+
+15. Case name:
+PQE-2026-015 — Valid Net 45
+
+Type:
+Normal
+
+Situation:
+PrimeTech Distribution Pte. Ltd. submitted quotation QT-2026-1015 for 40 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 13,080.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 45.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation contains complete and acceptable commercial terms with correct calculations.
+
+Special thing being tested:
+net 45, payment terms
+
+------------------------------------------------------------------------
+
+16. Case name:
+PQE-2026-016 — Valid Split Payment
+
+Type:
+Normal
+
+Situation:
+Horizon Enterprise Systems Pte. Ltd. submitted quotation QT-2026-1016 for 20 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 14,170.00, with delivery within 21 days, a 36 months warranty, payment terms of 50% on order, 50% after delivery.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Split payment terms are clearly defined and the quotation is otherwise complete and consistent.
+
+Special thing being tested:
+split payment, payment terms
+
+------------------------------------------------------------------------
+
+17. Case name:
+PQE-2026-017 — Valid Multiple Items
+
+Type:
+Normal
+
+Situation:
+Apex Technology Pte. Ltd. submitted quotation QT-2026-1017 for 10 × Business Laptop (BL-14X), 10 × 27-inch Business Monitor (BM-27Q), 10 × USB-C Docking Station (DS-100). The quoted total is SGD 19,770.00, with shipping of SGD 150.00, all items delivered within 21 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+All product lines, totals and commercial terms are complete and internally consistent.
+
+Special thing being tested:
+multiple items, three products, valid calculation
+
+------------------------------------------------------------------------
+
+18. Case name:
+PQE-2026-018 — Valid Near Expiry
+
+Type:
+Normal
+
+Situation:
+Nova Business Systems Pte. Ltd. submitted quotation QT-2026-1018 for 8 × Business Laptop (BL-14X). The quoted total is SGD 12,644.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation remains valid on the reference date and all commercial information is complete.
+
+Special thing being tested:
+near expiry, valid quotation
+
+------------------------------------------------------------------------
+
+19. Case name:
+PQE-2026-019 — Valid Long Validity
+
+Type:
+Normal
+
+Situation:
+Vertex Enterprise Supplies Pte. Ltd. submitted quotation QT-2026-1019 for 50 × Wireless Keyboard and Mouse Set (KM-500). The quoted total is SGD 4,087.50, with delivery within 7 days, a 12 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Quotation has a valid extended validity period and contains complete commercial information.
+
+Special thing being tested:
+long validity, valid quotation
+
+------------------------------------------------------------------------
+
+20. Case name:
+PQE-2026-020 — Valid Tax Inclusive
+
+Type:
+Normal
+
+Situation:
+Orion Office Technologies Pte. Ltd. submitted quotation QT-2026-1020 for 20 × USB-C Docking Station (DS-100). The quoted total is SGD 4,360.00, with delivery within 10 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Tax-inclusive pricing is explicitly disclosed and the underlying subtotal and GST reconcile correctly.
+
+Special thing being tested:
+tax inclusive, gst, valid calculation
+
+------------------------------------------------------------------------
+
+21. Case name:
+PQE-2026-021 — Valid Discount
+
+Type:
+Normal
+
+Situation:
+Summit Digital Solutions Pte. Ltd. submitted quotation QT-2026-1021 for 20 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 9,419.50, with a 5% discount, shipping of SGD 100.00, delivery within 14 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Discount, GST and shipping charges are clearly stated and correctly reflected in the final amount.
+
+Special thing being tested:
+discount, shipping, valid calculation
+
+------------------------------------------------------------------------
+
+22. Case name:
+PQE-2026-022 — Valid Multiple Items
+
+Type:
+Normal
+
+Situation:
+Nexus Technology Pte. Ltd. submitted quotation QT-2026-1022 for 20 × Business Laptop (BL-14X), 20 × USB-C Docking Station (DS-100). The quoted total is SGD 26,487.00, with a 10% discount, delivery within 21 days, a 24 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Multi-item quotation and volume discount are correctly calculated with acceptable commercial terms.
+
+Special thing being tested:
+multiple items, discount, valid calculation
+
+------------------------------------------------------------------------
+
+23. Case name:
+PQE-2026-023 — Valid Minimum Warranty
+
+Type:
+Normal
+
+Situation:
+PrimeTech Distribution Pte. Ltd. submitted quotation QT-2026-1023 for 15 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 6,540.00, with delivery within 14 days, a 12 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Warranty meets the minimum procurement requirement and all other terms are valid.
+
+Special thing being tested:
+minimum warranty, boundary case, valid quotation
+
+------------------------------------------------------------------------
+
+24. Case name:
+PQE-2026-024 — Valid Delivery Boundary
+
+Type:
+Normal
+
+Situation:
+Horizon Enterprise Systems Pte. Ltd. submitted quotation QT-2026-1024 for 30 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 16,350.00, with delivery within 30 days, a 36 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Delivery is at the maximum preferred limit but remains within procurement policy.
+
+Special thing being tested:
+delivery boundary, 30 days, valid quotation
+
+------------------------------------------------------------------------
+
+25. Case name:
+PQE-2026-025 — Valid Complex Quotation
+
+Type:
+Normal
+
+Situation:
+Apex Technology Pte. Ltd. submitted quotation QT-2026-1025 for 30 × Business Laptop (BL-14X), 30 × 27-inch Business Monitor (BM-27Q), 30 × USB-C Docking Station (DS-100). The quoted total is SGD 56,667.00, with a 10% discount, shipping of SGD 250.00, additional charges of SGD 500.00, delivery and installation within 21 days, a 36 months warranty, payment terms of Net 30.
+
+Expected procurement decision:
+Approve / Create draft PO
+
+Reason:
+Complex multi-item quotation is complete, internally consistent and within procurement policy.
+
+Special thing being tested:
+complex quotation, multiple items, discount, shipping, installation, valid calculation
+
+------------------------------------------------------------------------
+
+26. Case name:
+PQE-2026-026 — Approval Threshold Exceeded
+
+Type:
+Negative
+
+Situation:
+Nova Business Systems Pte. Ltd. submitted quotation QT-2026-1026 for 80 × Business Laptop (BL-14X). The quoted total is SGD 113,360.00, with delivery within 21 days, a 24 months warranty, payment terms of Net 30. The final quotation value is above the SGD 100,000 supervisor approval threshold.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+Quotation value exceeds the SGD 100,000 supervisor approval threshold.
+
+Special thing being tested:
+high value, approval threshold, supervisor authorization
+
+------------------------------------------------------------------------
+
+27. Case name:
+PQE-2026-027 — Unusually Large Quantity
+
+Type:
+Negative
+
+Situation:
+Vertex Enterprise Supplies Pte. Ltd. submitted quotation QT-2026-1027 for 1000 × Wireless Keyboard and Mouse Set (KM-500). The quoted total is SGD 69,170.00, with a 10% discount, shipping of SGD 500.00, delivery within 30 days, a 12 months warranty, payment terms of Net 30. The order quantity is 1,000 keyboard-and-mouse sets, creating an unusually large procurement commitment.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The unusually large order quantity creates a significant procurement commitment requiring supervisor review.
+
+Special thing being tested:
+large quantity, procurement commitment, supervisor judgement
+
+------------------------------------------------------------------------
+
+28. Case name:
+PQE-2026-028 — Extended Delivery Period
+
+Type:
+Negative
+
+Situation:
+Orion Office Technologies Pte. Ltd. submitted quotation QT-2026-1028 for 20 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 13,080.00, with delivery within 45 days, a 36 months warranty, payment terms of Net 30. The supplier proposes delivery within 45 days, exceeding the preferred 30-day maximum.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The 45-day delivery period exceeds the preferred maximum of 30 days and requires business approval.
+
+Special thing being tested:
+extended delivery, delivery risk, policy exception
+
+------------------------------------------------------------------------
+
+29. Case name:
+PQE-2026-029 — Short Warranty
+
+Type:
+Negative
+
+Situation:
+Summit Digital Solutions Pte. Ltd. submitted quotation QT-2026-1029 for 20 × Business Laptop (BL-14X). The quoted total is SGD 29,430.00, with delivery within 14 days, a 6 months warranty, payment terms of Net 30. Only 6 months of warranty is offered, below the preferred 12-month minimum.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The offered warranty is below the preferred minimum of 12 months and requires supervisor acceptance.
+
+Special thing being tested:
+short warranty, warranty risk, policy exception
+
+------------------------------------------------------------------------
+
+30. Case name:
+PQE-2026-030 — High Upfront Payment
+
+Type:
+Negative
+
+Situation:
+Nexus Technology Pte. Ltd. submitted quotation QT-2026-1030 for 25 × Business Laptop (BL-14X). The quoted total is SGD 38,150.00, with delivery within 21 days, a 24 months warranty, payment terms of 80% upfront, 20% after delivery. The supplier requires 80% payment upfront and only 20% after delivery.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The requirement for 80% upfront payment creates elevated financial exposure and requires supervisor approval.
+
+Special thing being tested:
+upfront payment, financial risk, payment terms
+
+------------------------------------------------------------------------
+
+31. Case name:
+PQE-2026-031 — Full Advance Payment
+
+Type:
+Negative
+
+Situation:
+PrimeTech Distribution Pte. Ltd. submitted quotation QT-2026-1031 for 40 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 16,350.00, with delivery within 14 days, a 24 months warranty, payment terms of 100% payment before shipment. The supplier requires 100% payment before shipment.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+Full payment is required before shipment, creating elevated supplier and financial risk.
+
+Special thing being tested:
+advance payment, financial risk, supplier risk
+
+------------------------------------------------------------------------
+
+32. Case name:
+PQE-2026-032 — High Shipping Cost
+
+Type:
+Negative
+
+Situation:
+Horizon Enterprise Systems Pte. Ltd. submitted quotation QT-2026-1032 for 20 × USB-C Docking Station (DS-100). The quoted total is SGD 5,424.00, with shipping of SGD 1,500.00, delivery within 10 days, a 24 months warranty, payment terms of Net 30. Shipping is SGD 1,500.00 against goods worth SGD 3,600.00 before tax.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The shipping charge is unusually high relative to the value of the goods and requires commercial review.
+
+Special thing being tested:
+high shipping, commercial risk, cost review
+
+------------------------------------------------------------------------
+
+33. Case name:
+PQE-2026-033 — Foreign Currency
+
+Type:
+Negative
+
+Situation:
+Apex Technology Pte. Ltd. submitted quotation QT-2026-1033 for 20 × Business Laptop (BL-14X). The quoted total is USD 19,300.00, with shipping of USD 300.00, delivery within 21 days, a 24 months warranty, payment terms of Net 30. The offer is denominated in USD instead of the procurement base currency, SGD.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The quotation is denominated in USD rather than the procurement base currency SGD and requires currency and financial review.
+
+Special thing being tested:
+foreign currency, usd, currency risk
+
+------------------------------------------------------------------------
+
+34. Case name:
+PQE-2026-034 — Short Validity Period
+
+Type:
+Negative
+
+Situation:
+Nova Business Systems Pte. Ltd. submitted quotation QT-2026-1034 for 25 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 14,987.50, with delivery within 14 days, a 36 months warranty, payment terms of Net 30. The quotation is valid only until 1 October 2026, leaving just one day at the assessment point.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The quotation remains valid but expires within one day, requiring time-sensitive supervisor review.
+
+Special thing being tested:
+short validity, time sensitive, commercial review
+
+------------------------------------------------------------------------
+
+35. Case name:
+PQE-2026-035 — High Cancellation Fee
+
+Type:
+Negative
+
+Situation:
+Vertex Enterprise Supplies Pte. Ltd. submitted quotation QT-2026-1035 for 30 × Business Laptop (BL-14X). The quoted total is SGD 44,145.00, with delivery within 21 days, a 24 months warranty, payment terms of Net 30. A special term imposes a non-refundable 30% restocking charge if the order is cancelled after confirmation.
+
+Expected procurement decision:
+Supervisor review
+
+Reason:
+The 30% non-refundable cancellation charge creates a significant contractual commitment requiring supervisor review.
+
+Special thing being tested:
+cancellation fee, contractual risk, commercial terms
+
+------------------------------------------------------------------------
+
+36. Case name:
+PQE-2026-036 — Line Total Mismatch
+
+Type:
+Negative
+
+Situation:
+Orion Office Technologies Pte. Ltd. submitted quotation QT-2026-1036 for 20 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 13,080.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30. The line shows 20 units at SGD 500.00 each but states a line total of SGD 12,000.00 instead of SGD 10,000.00.
+
+Expected procurement decision:
+Request supplier clarification
+
+Reason:
+The stated line total does not match the quantity multiplied by the unit price.
+
+Special thing being tested:
+calculation error, line total, quantity price mismatch
+
+------------------------------------------------------------------------
+
+37. Case name:
+PQE-2026-037 — Subtotal Mismatch
+
+Type:
+Negative
+
+Situation:
+Summit Digital Solutions Pte. Ltd. submitted quotation QT-2026-1037 for 10 × Business Laptop (BL-14X), 10 × USB-C Docking Station (DS-100). The quoted total is SGD 15,260.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30. The individual line totals sum to SGD 13,500.00, but the quotation states a subtotal of SGD 14,000.00.
+
+Expected procurement decision:
+Request supplier clarification
+
+Reason:
+The stated subtotal does not equal the sum of the individual line totals.
+
+Special thing being tested:
+calculation error, subtotal, multiple items
+
+------------------------------------------------------------------------
+
+38. Case name:
+PQE-2026-038 — Incorrect Tax Calculation
+
+Type:
+Negative
+
+Situation:
+Nexus Technology Pte. Ltd. submitted quotation QT-2026-1038 for 20 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 11,200.00, with delivery within 14 days, a 36 months warranty, payment terms of Net 30. The stated GST amount does not reconcile with the quoted 9% tax rate and subtotal.
+
+Expected procurement decision:
+Request supplier clarification
+
+Reason:
+The stated GST amount is inconsistent with the quoted 9% tax rate and subtotal.
+
+Special thing being tested:
+calculation error, gst, tax mismatch
+
+------------------------------------------------------------------------
+
+39. Case name:
+PQE-2026-039 — Incorrect Discount Calculation
+
+Type:
+Negative
+
+Situation:
+PrimeTech Distribution Pte. Ltd. submitted quotation QT-2026-1039 for 20 × Business Laptop (BL-14X). The quoted total is SGD 30,520.00, with a 10% discount, delivery within 21 days, a 24 months warranty, payment terms of Net 30. A 10% discount is stated on SGD 30,000.00, but the discount amount is shown as only SGD 2,000.00.
+
+Expected procurement decision:
+Request supplier clarification
+
+Reason:
+The stated discount amount does not correspond to the quoted 10% discount rate.
+
+Special thing being tested:
+calculation error, discount, discount mismatch
+
+------------------------------------------------------------------------
+
+40. Case name:
+PQE-2026-040 — Conflicting Delivery Terms
+
+Type:
+Negative
+
+Situation:
+Horizon Enterprise Systems Pte. Ltd. submitted quotation QT-2026-1040 for 25 × 27-inch Business Monitor (BM-27Q). The quoted total is SGD 10,900.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30. The main delivery term says 14 days, while the special terms state a standard lead time of 30 days.
+
+Expected procurement decision:
+Request supplier clarification
+
+Reason:
+The quotation contains conflicting delivery periods of 14 days and 30 days.
+
+Special thing being tested:
+contradictory information, delivery terms, ambiguity
+
+------------------------------------------------------------------------
+
+41. Case name:
+PQE-2026-041 — Missing Warranty
+
+Type:
+Negative
+
+Situation:
+Apex Technology Pte. Ltd. submitted quotation QT-2026-1041 for 15 × Business Laptop (BL-14X). The quoted total is SGD 22,072.50, with delivery within 14 days, payment terms of Net 30. No warranty coverage is specified for the laptops.
+
+Expected procurement decision:
+Request supplier clarification
+
+Reason:
+The quotation does not specify warranty coverage for the supplied equipment.
+
+Special thing being tested:
+missing information, warranty, incomplete terms
+
+------------------------------------------------------------------------
+
+42. Case name:
+PQE-2026-042 — Missing Currency
+
+Type:
+Negative
+
+Situation:
+Nova Business Systems Pte. Ltd. submitted quotation QT-2026-1042 for 10 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is unspecified currency 7,185.00, with shipping of unspecified currency 100.00, delivery within 14 days, a 36 months warranty, payment terms of Net 30. Prices and totals are present, but the currency field is missing.
+
+Expected procurement decision:
+Request supplier clarification
+
+Reason:
+The quotation does not identify the currency used for its prices and totals.
+
+Special thing being tested:
+missing information, currency, pricing ambiguity
+
+------------------------------------------------------------------------
+
+43. Case name:
+PQE-2026-043 — Invalid Document Type
+
+Type:
+Negative
+
+Situation:
+Vertex Enterprise Supplies submitted invoice INV-2026-7842 for 10 business laptops with a total of SGD 14,170.00. The procurement workflow expects a supplier quotation, not a billing document.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The submitted document is an invoice rather than a supplier quotation.
+
+Special thing being tested:
+wrong document, invoice, invalid document type
+
+------------------------------------------------------------------------
+
+44. Case name:
+PQE-2026-044 — Invalid Document Type
+
+Type:
+Negative
+
+Situation:
+Apex Technology submitted purchase order PO-2026-4581 for 20 business monitors with a total of SGD 8,720.00. The procurement workflow expects an incoming supplier quotation rather than an already issued purchase order.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The submitted document is a purchase order rather than a supplier quotation.
+
+Special thing being tested:
+wrong document, purchase order, invalid document type
+
+------------------------------------------------------------------------
+
+45. Case name:
+PQE-2026-045 — Unrelated Document
+
+Type:
+Negative
+
+Situation:
+Summit Digital Solutions submitted a corporate capabilities and services profile containing company background, certifications and contact information. It contains no quotation, item pricing or commercial offer to evaluate.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The submitted document is a company profile and does not contain a supplier quotation.
+
+Special thing being tested:
+wrong document, unrelated document, no quotation
+
+------------------------------------------------------------------------
+
+46. Case name:
+PQE-2026-046 — Severely Expired Quotation
+
+Type:
+Negative
+
+Situation:
+Orion Office Technologies Pte. Ltd. submitted quotation QT-2022-0421 for 20 × Business Laptop (BL-14X). The quoted total is SGD 23,540.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30. The quotation was issued in May 2022 and expired in June 2022, several years before the 2026 assessment.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The quotation expired several years before the current procurement assessment and is no longer commercially valid.
+
+Special thing being tested:
+expired quotation, stale document, invalid validity
+
+------------------------------------------------------------------------
+
+47. Case name:
+PQE-2026-047 — Invalid Future Date
+
+Type:
+Negative
+
+Situation:
+Nexus Technology Pte. Ltd. submitted quotation QT-2035-9001 for 20 × Enterprise Wi-Fi Access Point (AP-600). The quoted total is SGD 13,080.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30. The quotation is dated January 2035, implausibly far in the future relative to the 2026 assessment.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The quotation is dated implausibly far in the future relative to the assessment date.
+
+Special thing being tested:
+future date, suspicious document, invalid date
+
+------------------------------------------------------------------------
+
+48. Case name:
+PQE-2026-048 — Unidentifiable Supplier
+
+Type:
+Negative
+
+Situation:
+An unidentified supplier submitted quotation QT-2026-1048 for 20 × USB-C Docking Station (DS-100). The quoted total is SGD 3,924.00, with delivery within 14 days, a 24 months warranty, payment terms of Net 30. Neither a supplier name nor supplier contact information is provided, so the source cannot be established.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The quotation contains no identifiable supplier or supplier contact information, so its source cannot be established.
+
+Special thing being tested:
+missing supplier, source unverifiable, invalid quotation
+
+------------------------------------------------------------------------
+
+49. Case name:
+PQE-2026-049 — Unreadable Document
+
+Type:
+Negative
+
+Situation:
+PrimeTech Distribution submitted a document identified as a supplier quotation, but its content is severely corrupted or illegible. No reliable quotation number, dates, currency, items, totals or commercial terms can be extracted.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The document is unreadable and does not contain sufficient reliable information for procurement assessment.
+
+Special thing being tested:
+unreadable document, extraction failure, insufficient information
+
+------------------------------------------------------------------------
+
+50. Case name:
+PQE-2026-050 — Procurement Scope Mismatch
+
+Type:
+Negative
+
+Situation:
+Horizon Enterprise Systems Pte. Ltd. submitted quotation QT-2026-1050 for 2 × Industrial Refrigeration Unit (IRU-5000). The quoted total is SGD 39,740.00, with shipping of SGD 500.00, delivery within 21 days, a 24 months warranty, payment terms of Net 30. The stated procurement request is for business laptops and accessories, but the quotation offers two industrial refrigeration units.
+
+Expected procurement decision:
+Reject / Stop processing
+
+Reason:
+The quotation is for goods unrelated to the stated procurement requirement.
+
+Special thing being tested:
+wrong goods, scope mismatch, irrelevant quotation
+
+------------------------------------------------------------------------
